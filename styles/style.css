@@ -450,7 +450,7 @@ product-1 .pro-container {
     padding-right: 80px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
     #karimdiv {
         display: block;
         align-items: center;
