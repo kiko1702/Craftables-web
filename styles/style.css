@@ -827,3 +827,13 @@ product-1 .pro-container {
         display: block;
         align-items: center;
     }
+
+    @media(max-width: 1015px) {
+        .aboutusp {
+            width: 100%;
+        }
+
+        .aboutusimg {
+            margin-right: 0;
+        }
+    }
