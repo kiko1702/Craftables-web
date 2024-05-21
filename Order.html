@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Cart</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="img/1cc86bb38f441734b5aaf9576d711d92.png">
 </head>
@@ -26,27 +26,40 @@
             <ul id="navbar">
                 <li><a id="close"><i><img src="img/xmark-solid.svg" width="20" /></i></a></li>
                 <li><a href="./">Home</a></li>
-                <li><a href="./shop">Shop</a></li>
+                <li><a class="active" href="./shop">Shop</a></li>
                 <li><a href="./aboutus">About us</a></li>
                 <li><a href="./termsandconditions">Terms and conditions</a></li>
                 <li><a href="./sell">Sell</a></li>
                 <li><a href="./contactus">Contact us</a></li>
-                <li><a class="active" href="./cart" class="mbag"><img src="img/cart-shopping-solid.svg" width="30"></a></li>
+                <li><a href="./cart" class="mbag"><img src="img/cart-shopping-solid.svg" width="30"></a></li>
             </ul>
         </div>
         <div id="mobile">
             <a href="./cart"><img src="img/cart-shopping-solid.svg" width="30"></a>
-            <i id="bar" class=" fas fa-outdent"><img src="img/bars-solid.svg" width="30" /></i>
+            <i id="bar" class="fas fa-outdent"><img src="img/bars-solid.svg" width="30" /></i>
         </div>
     </section>
 
-    <div class="cart-status" id="cart-status">
-        <p>
-            Your cart is empty. <br />
-            <a href="shop.html">Shop now</a> and add products to your cart.
-        </p>
-    </div>
     <script src="script.js"></script>
+
+
+    <div class="ordersummary">
+        <h1>Order summary</h1>
+        <div class="ordersumedit">
+            
+        </div>
+    </div>
+
+    <div class="orderformcontainer">
+        <form id="contactusform">
+            <input type="text" id="cusname" placeholder="Your name" required>
+            <input type="email" id="cusemail" placeholder="Your email" required>
+            <input type="text" id="cusaddress" placeholder="Your address" required>
+            <input type="text" id="cusphonenumber" placeholder="Your phone number" require>
+            <input type="text" id="cusspefcialreq" placeholder="Special request (Name on product, specific color, etc...)">
+            <textarea type="text" id="cusmessage" placeholder="Your message" required></textarea>
+            <button type="submit" onclick="Order();">Place order</button>
+        </form>
 
 
 
