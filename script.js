@@ -43,7 +43,7 @@ function sendMail() {
         Message : document.getElementById("conmessage").value
     }
     emailjs.send("service_2a8k81b", "template_oifsoq2", params);
-}}
+}
 
 function Sellform(){
     var dataparams = {
