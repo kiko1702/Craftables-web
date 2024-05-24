@@ -42,10 +42,8 @@ function sendMail() {
         Email : document.getElementById("conemail").value,
         Message : document.getElementById("conmessage").value
     }
-    emailjs.send("service_ffy298b", "template_oifsoq2", params);
-    window.location.href = './Verification';
-
-}
+    emailjs.send("service_2a8k81b", "template_oifsoq2", params);
+}}
 
 function Sellform(){
     var dataparams = {
