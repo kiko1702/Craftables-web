@@ -42,7 +42,7 @@ function sendMail() {
         Email : document.getElementById("conemail").value,
         Message : document.getElementById("conmessage").value
     }
-    emailjs.send("service_2a8k81b", "template_oifsoq2", params);
+    emailjs.send("service_jceqj07", "template_oifsoq2", params);
 }
 
 function Sellform() {
@@ -83,7 +83,7 @@ blubracelet.addEventListener('click', function() {
 const greenbracelet = document.getElementById('greenbracelet');
 
 greenbracelet.addEventListener('click', function() {
-  window.location.href = './Product-987521';
+  window.location.href = './Product-789350';
 });
 
 const whitebracelet = document.getElementById('whitebracelet');
