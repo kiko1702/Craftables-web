@@ -45,7 +45,7 @@ function sendMail() {
     emailjs.send("service_2a8k81b", "template_oifsoq2", params);
 }
 
-function Sellform(){
+function Sellform() {
     var dataparams = {
         SellerName : document.getElementById("selname").value,
         SellerEmail : document.getElementById("selemail").value,
