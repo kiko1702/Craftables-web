@@ -1,4 +1,4 @@
-* {
+﻿* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -175,11 +175,8 @@ body {
     /*Common card*/
         /*home-page style*/
 
-
-
         .container {
-            height: 600px;
-            padding: 80px;
+            padding: 20px 40px; /* Adjusted padding */
             margin-left: 40px;
             margin-right: 40px;
             display: flex;
@@ -625,12 +622,13 @@ product-1 .pro-container {
     align-items: center;
     justify-content: center;
     font-family: 'popins', 'sans-serif';
+    margin-top: -60px;
 }
 
 #contactusform {
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
+    padding: 0 4vw 2vw;
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
@@ -886,4 +884,16 @@ product-1 .pro-container {
 
     .youmightalsolike {
         padding-top: 30px;
+    }
+
+    .container {
+        padding-bottom: 5%;
+    }
+
+    #product-1 {
+        padding-top: 10%;
+    }
+
+    .singlediv {
+        padding-bottom: 30px;
     }
