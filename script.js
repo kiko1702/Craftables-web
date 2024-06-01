@@ -36,14 +36,6 @@ function singleproductpage(){
     const producttp = 1;
 }
 
-function sendMail() {
-    var params = {
-        Name : document.getElementById("conname").value,
-        Email : document.getElementById("conemail").value,
-        Message : document.getElementById("conmessage").value
-    }
-    emailjs.send("service_jceqj07", "template_oifsoq2", params);
-}
 
 function Sellform() {
     var dataparams = {
@@ -83,13 +75,13 @@ blubracelet.addEventListener('click', function() {
 const greenbracelet = document.getElementById('greenbracelet');
 
 greenbracelet.addEventListener('click', function() {
-  window.location.href = './Product-789350';
+  window.location.href = './Product-987521'; 
 });
 
 const whitebracelet = document.getElementById('whitebracelet');
 
 whitebracelet.addEventListener('click', function() {
-  window.location.href = './Product-987521 ';
+  window.location.href = './Product-789350';
 });
 
 const rockybracelet = document.getElementById('rockybracelet');
@@ -97,3 +89,4 @@ const rockybracelet = document.getElementById('rockybracelet');
 rockybracelet.addEventListener('click', function() {
     window.location.href = './Product-652170';
   });
+
