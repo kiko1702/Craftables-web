@@ -184,6 +184,7 @@ body {
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            padding-top: 70px;
         }
 
             @media(min-width:550px){
@@ -301,6 +302,7 @@ body {
             margin: 15px 0;
             transition: 0.2s ease;
             display: inline-block;
+            margin-top: -50px;
         }
 
         #product-1 .pro:hover {
@@ -896,4 +898,13 @@ product-1 .pro-container {
 
     .singlediv {
         padding-bottom: 30px;
+    }
+
+    .container {
+        padding-top: 6%;
+    }
+
+    .section-p1 {
+        padding-top: 3%;
+        margin-top: -80px;
     }
