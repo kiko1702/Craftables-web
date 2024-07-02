@@ -36,20 +36,6 @@ function singleproductpage(){
     const producttp = 1;
 }
 
-
-function Sellform() {
-    var dataparams = {
-        SellerName : document.getElementById("selname").value,
-        SellerEmail : document.getElementById("selemail").value,
-        SellerProductName : document.getElementById("selproname").value,
-        SellerProductImage : document.getElementById("selproimg").value,
-        SellerProductPrice : document.getElementById("selproprice").value,
-        SellerProductDescription : document.getElementById("selmessage").value
-    }
-    emailjs.send("service_ffy298b", "template_odfgtvh", dataparams);
-    window.location.href = './Verification'
-}
-
 function singleproductpage() {
     var clickedChild = document.querySelector('#karimdiv .pro-container:hover');
     if (clickedChild) {
@@ -108,3 +94,18 @@ function Addtocart() {
 const test = "test"
 localStorage.setItem("testconst", test);
 localStorage.getItem("testconst")
+
+
+
+
+
+
+
+
+
+
+
+
+window.onload = function() {
+        window.scrollTo(0, 0);
+    }
